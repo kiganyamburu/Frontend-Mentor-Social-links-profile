@@ -1,0 +1,84 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.profile {
+  background-color: black;
+  height: 500px;
+  width: 100%;
+  border-radius: 5%;
+}
+
+img {
+  border-radius: 50%;
+}
+
+p {
+  color: white;
+  text-decoration: none;
+}
+
+.git {
+  background-color: cadetblue;
+  height: 5%;
+  width: 100%;
+  border-radius: 5%;
+}
+.mentor {
+  background-color: cadetblue;
+  height: 5%;
+  width: 100%;
+  border-radius: 5%;
+}
+.LinkedIn {
+  background-color: cadetblue;
+  height: 5%;
+  width: 100%;
+  border-radius: 5%;
+}
+.Twitter {
+  background-color: cadetblue;
+  height: 5%;
+  width: 100%;
+  border-radius: 5%;
+}
+.Instagram {
+  background-color: cadetblue;
+  height: 5%;
+  width: 100%;
+  border-radius: 5%;
+}
+.place {
+  color: white;
+}
+
+.git > p {
+  text-align: center;
+}
+.mentor > p {
+  text-align: center;
+}
+.LinkedIn > p {
+  text-align: center;
+}
+.Twitter > p {
+  text-align: center;
+}
+.Instagram > p {
+  text-align: center;
+}
